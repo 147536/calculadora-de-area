@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Página básica</title>
+</head>
+<body>
+     <script>
+    let anchoRectangulo; // Creamos una variable para el "Ancho" de tipo string
+    anchoRectangulo = prompt("Ancho del rectángulo"); // Lo que el usuario escriba en pantalla pasará a ser el valor de la variable anchoRectangulo
+    let ancho // Pasamos el "Ancho" a un número entero
+    ancho = parseInt(anchoRectangulo);
+
+    let alturaRectangulo; // Creamos una variable para el "Altura" de tipo string
+    alturaRectangulo = prompt("Altura del rectángulo"); // Lo que el usuario escriba en pantalla pasará a ser el valor de la variable alturaRectangulo
+    let altura // Pasamos el "Ancho" a un número entero
+    altura = parseInt(alturaRectangulo);
+
+    let calculoArea; //Creamos una variable para el cálculo del "Área"
+    calculoArea = (ancho * altura);
+
+    console.log("El área del rectángulo es " + calculoArea); // Mostramos en pantalla el "Área" calculada con los datos previamente introducidos por el usuario
+
+    </script>
+</body>
+</html>
